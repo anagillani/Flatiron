@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About Us</title>
+<!-- 	<link rel="stylesheet" type="text/css" href="style.css">
+ -->	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<style>
+		h1{
+			text-align: center;
+			padding-top: 15px;
+			padding-bottom: 10px;
+		}
+
+		p{
+			text-align: center;
+			font-family: serif;
+			font-size: 25px;
+		}
+
+		html,body{
+  			height: 100%;
+  		}
+		
+		body{
+			background-image: url(bubbles.png); 
+			background-size: cover;
+  	  		background-position: center;
+  	  		background-repeat: no-repeat;
+		}
+
+		h2{
+			font-size: 20px;
+			padding-top: 5px;
+			padding-left: 0px;
+		}
+
+		.box1{
+			
+  			width: 250px;
+  			height: 250px;
+  			background: #000;
+  			color:#fff;
+  			top: 70%;
+  			left:35%;
+  			position: absolute;
+  			transform:translate(-50%,-50%); 
+  			box-sizing: border-box;
+  			padding: 20px 10px;
+		
+		}
+
+		.box2{
+			width: 250px;
+  			height: 250px;
+  			background: #000;
+  			color:#fff;
+  			top: 70%;
+  			left:65%;
+  			position: absolute;
+  			transform:translate(-50%,-50%); 
+  			box-sizing: border-box;
+  			padding: 20px 10px;
+		
+		}
+		#boxtext{
+			font-size: 16px;
+			text-align: center;
+			padding-bottom: 15%;
+		}
+
+		.button{
+			border: none;
+			outline: none;
+			height: 70px;
+			width: 70px;
+			background: #fb2525;
+			color:#fff;
+			font-size: 15px;
+			border-radius: 30px;
+			padding: 12px 32px;
+
+			
+		}
+
+		
+	</style>
+</head>
+
+<body>
+	 <?php include("navbar.html"); ?>
+
+	<h1> About Us </h1>
+	<p>
+		Flat iron is an interative learning platform that is helping<br>
+		millions of students to achieve better grades. It helps students<br>
+		to learn better via tesing questions provided for each module.
+	</p>
+	<h1> Meet our Team <h1>
+	<div class="box1">
+		<h2> Ana Gillani <h2>
+		<p id="boxtext">
+			I'm currently a student at Queens college pursuing
+			Bachelor's in computer science. I've worked on designing the website,
+			editing the content and managing 
+			the front end programming.<br><br>
+			<a href= "mailto:ana.gillani53@qmail.cuny.edu" class="button">Contact me</a>
+
+		</p>
+	</div>
+	<div class="box2">
+		<h2> Mohammad R. Hossain<h2>
+		<p id="boxtext">
+			I'm currently a student at Queens college pursuing
+			Bachelor's in computer science. I'm the database designer and administrator
+			and server-side programmer for flat iron. <br><br><br>
+			<a href= "mailto:mohammad.hossain123@qmail.cuny.edu" class="button">Contact me</a>
+
+		</p>
+
+
+	</div>
+</body>
+</html>
